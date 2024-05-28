@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formula3716370.Rectanguloxaml"
+             Title="Rectanguloxaml">
+    <VerticalStackLayout>
+
+       <Image Source="rectangulo.jpg" 
+           HeightRequest="200"
+           WidthRequest="800"/>
+        <Label 
+            Text="CALCULO DEL PERIMETRO"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry x:Name="entry1" Placeholder="Ingrese la altura"/>
+        <Entry x:Name="entry2" Placeholder="Ingrese la base"/>
+        <Entry x:Name="entry3" Placeholder="Perimetro"/>
+        <Entry x:Name="entry4" Placeholder="Superficie"/>
+        
+
+
+        <Button Text="Calcular" BackgroundColor="Red" Clicked="Button_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>

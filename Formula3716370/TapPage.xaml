@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Formula3716370"
+            xmlns:local1="clr-namespace:Formula3716370"
+             x:Class="Formula3716370.TapPage"
+             Title="TapPage">
+
+    <local:Suma/>
+    <local1:NumInvert/>
+    <local:Rectanguloxaml/>
+    <local:Promedio/>
+    <local:Expresion/>
+    <local:Cuadrado/>
+
+
+
+
+</TabbedPage>
